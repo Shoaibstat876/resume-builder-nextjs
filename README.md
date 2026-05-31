@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Resume Builder Next.js
 
-## Getting Started
+A resume builder web app built with **Next.js**, **TypeScript**, and **Tailwind CSS**.
 
-First, run the development server:
+This project allows users to view and manage resume sections such as personal information, work experience, education, and skills. It was built as a frontend practice project to improve component-based UI development, structured data display, and interactive resume section handling.
+
+## Live Demo
+
+[View Live Demo](https://formal-resume-builder-pwmn.vercel.app/)
+
+## Features
+
+* Personal information section
+* Experience section
+* Education section
+* Skills section with proficiency levels
+* Add, edit, and delete-style resume section actions
+* Resume preview/navigation
+* Clean frontend layout
+* Built with modern Next.js project structure
+* Deployed on Vercel
+
+## Tech Stack
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Vercel
+
+## Project Purpose
+
+This project was created to practice building a resume builder interface using Next.js and TypeScript.
+
+The main goal was to understand how to structure a frontend application with reusable sections and display resume-related data in a clean format.
+
+## What I Practiced
+
+* Next.js app structure
+* React component-based UI development
+* TypeScript with frontend components
+* Tailwind CSS styling
+* Structured resume data display
+* Interactive UI sections
+* Vercel deployment workflow
+
+## Folder Structure
+
+```bash
+resume-builder-nextjs/
+├── public/
+├── src/
+│   └── app/
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+└── README.md
+```
+
+## Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Shoaibstat876/resume-builder-nextjs.git
+```
+
+Go to the project folder:
+
+```bash
+cd resume-builder-nextjs
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open in browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Future Improvements
 
-## Learn More
+* Add form validation
+* Add PDF download/export feature
+* Add local storage support
+* Add database support
+* Add authentication
+* Add multiple resume templates
+* Improve mobile responsiveness
+* Improve UI polish and spacing
 
-To learn more about Next.js, take a look at the following resources:
+## Status
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Frontend practice project with live deployment.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is not a production-level resume builder yet, but it shows practical frontend development using Next.js, TypeScript, and Tailwind CSS.
