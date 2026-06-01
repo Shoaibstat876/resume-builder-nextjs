@@ -34,6 +34,13 @@ This project was created to practice building a resume builder interface using N
 
 The main goal was to understand how to structure a frontend application with reusable sections and display resume-related data in a clean format.
 
+## Learning Goals
+
+The goal of this project was to understand how professional resume-building applications organize, display, and manage structured user information.
+
+This project provided hands-on experience with reusable React components, TypeScript-based UI development, responsive layouts, and frontend application design using Next.js.
+
+
 ## What I Practiced
 
 * Next.js app structure
